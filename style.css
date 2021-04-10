@@ -165,7 +165,7 @@ h3 {
         height: 50vh;
     }
     .cover-photo {
-        width: 35vw;
+        width: 20%;
     }
     h1 {
         text-align: left;
@@ -243,7 +243,7 @@ h3 {
         height: 90vh;
     }
     .cover-photo {
-        width: 15%;
+        width: 10%;
         margin: auto 0 auto 8.5vw;
     }
     .grid-wrapper {
