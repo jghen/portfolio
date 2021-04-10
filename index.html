@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout Master</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+<body class="blue">
+  <nav class=" blue sticky">
+    <ul class="main-nav">
+      <li><a target="#" href="#">om meg</a></li>
+      <li><a target="#projects" href="#projects">prosjekter</a></li>
+      <li><a target="#cv" href="#cv">cv</a></li>
+      <li class="push"><a target="_blank" href="mailto:jangeorg85@gmail.com">kontakt meg</a></li>
+    </ul>
+  </nav>
+  <div class="nav-sprinkles blue"></div>
+  <section class="container white">
+    <img class="cover-photo" src="img/cv_bilde_georg.png" alt="cover-photo">
+    <div class="cover-text">
+      <h1>Jan Georg Henriksen</h1>
+      <p>Byggeprosjektleder og skap-frondend utvikler. Leker med webapplikasjoner på fritiden og er nå ute etter et skifte til IT-bransjen. </p>
+      <p> Jeg bruker html, css og javascript foreløpig. Etterhvert skal jeg også lære meg React og Node.js som jeg skal bruke til å bygge en app-idé som jeg har. </p>
+      <p>Ta en kikk på det jeg har gjort i det siste og kontakt meg gjerne dersom du ønsker å leie meg inn til en jobb! Foreløpig kan jeg ta relativt enkle jobber, men jeg lærer fort. </p>
+    </div>
+  </section>
+  <section class="grid-wrapper" id="projects">
+    <div class="box white">
+      <iframe src="https://jghen.github.io/background_generator/" scrolling="no" frameborder="0"></iframe>
+      <div class="project-info">  
+        <h3>Background generator</h3>
+        <ul>
+          <li><p>Stack: <em>html</em> <em>css </em> <em>javascript</em></p></li>
+          <li><p>Info: Webapp hvor du kan endre gradient-bakgrunn. Prøv til venstre, eller <a target="_blank" href="https://jghen.github.io/background_generator/">her</a>.</p></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="box white">
+      <iframe src="https://jghen.github.io/colorswitch/" scrolling="no" frameborder="0"></iframe>
+      <div class="project-info">  
+        <h3>colorswitch</h3>
+        <ul>
+          <li><p class="stack">Stack: <em>html</em> <em>css </em> <em>javascript</em></p></li>
+          <li><p>Info: Webapp som konverterer farger fra RGB til hex. Prøv til venstre, eller <a target="_blank" href="https://jghen.github.io/colorswitch/">her</a>.</p></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="box white">
+      <iframe class="project3" src="https://jghen.github.io/fin-calc/utleie.html" seamless="seamless" frameborder="0"></iframe>
+      <div class="project-info">  
+        <h3>Utleiekalkulator</h3>
+        <ul>
+          <li><p class="stack">Stack: <em>html</em> <em>css </em> <em>javascript</em></p></li>
+          <li><p>Info: Utleiekalkulator. Prøv appen <a target="_blank" href="https://jghen.github.io/fin-calc/utleie.html">her</a>.</p></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="box white">
+      <img src="img/undraw.png">
+      <div class="project-info">  
+        <h3>...neste prosjekt</h3>
+        <ul>
+          <li><p>Flere ting kommer snart!</p></li>
+          <li><p>Jeg skal bli litt bedre på javascript før jeg går inn i React osv.</p></li>
+          
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <section class="white" id="cv">
+  </section>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
