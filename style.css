@@ -310,21 +310,19 @@ h3 {
     
     .container {
         height: 50vh;
-        justify-content: flex-start;
-        align-content: center;
     }
     .cover-text {
         width: 40%;
-        margin-left: 5vw;
+        margin-left: 2.8vw;
     }
     .cover-photo {
         width: 10%;
+        margin-left: 17.3vw;
     }
     .grid-wrapper {
         height: 90vh;
         width: 80%;
     }
-    
     .box {
         height: 35vh;
         width: 30vw;
@@ -332,19 +330,19 @@ h3 {
         flex-wrap: nowrap;
     }
     .box > iframe {
-        height: 168%;
-        width: 65%;
+        height: 167.5%;
+        width: 70%;
         transform: scale(.6);
-        margin: auto -4vw;
+        margin: auto -4.3vw;
     }
     .box img {
         margin-left: 1.5vw;
         width: 30%;
     }
     .project-info {
-        width: 55%;
+        width: 50%;
         height: 90%;
-        margin: 5% auto auto 12.5vw;
+        margin: 5% auto auto 14vw;
         display: block;
     }
     
