@@ -298,10 +298,10 @@ h3 {
         width: 40%;
     }
     .box > iframe {
-        height: 201%;
+        height: 200%;
         width: 95%;
         transform: scale(.5);
-        margin: auto -8.9vw;
+        margin: auto -9vw;
     }
     .box img {
         width: 25%;
