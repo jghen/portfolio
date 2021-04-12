@@ -39,7 +39,7 @@ body{
     padding: 20px;
     margin: auto;
 }
-.main-nav li::first-letter {
+.main-nav li::first-letter, .project-info a::first-letter {
     text-transform: capitalize;
 }
 .push {
@@ -147,6 +147,15 @@ h3 {
 }
 .project-info p {
     line-height: 2vh;
+}
+.project-info a {
+    font-weight: 600;
+    color: rgb(11, 72, 87);
+    text-decoration: none;
+    transition: ease-in .2s;
+}
+.project-info a:hover {
+    text-decoration: underline;
 }
 
 /*section cv*/
