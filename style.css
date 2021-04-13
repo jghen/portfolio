@@ -367,7 +367,7 @@ h3 {
         display: block;
     }
     .project-info p{
-        line-height: 4vh;
+        line-height: 3vh;
     }
 }
 @media only screen and (min-width: 1920px) {
@@ -414,7 +414,7 @@ h3 {
         display: block;
     }
     .project-info p {
-        line-height: 1.2rem;
+        line-height: 1.3rem;
     }
     
 }
