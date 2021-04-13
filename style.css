@@ -199,7 +199,7 @@ h3 {
 }
 @media only screen and (min-width: 640px) {
     .photo-sprinkle2{
-        opacity: 0;
+        display: none;
     }
     .photo-sprinkle3{
         height: 110%;
@@ -234,7 +234,7 @@ h3 {
 
 @media only screen and (min-width: 768px) {   
     .photo-sprinkle2{
-        opacity: 0;
+        display: none;
     }
     .photo-sprinkle3{
         height: 110%;
@@ -261,6 +261,12 @@ h3 {
 }
 
 @media only screen and (min-width: 1376px) {
+    .photo-sprinkle2{
+        display: block;
+    }
+    .photo-sprinkle3{
+        height: 100%;
+    }
     .container {
         justify-content: flex-start;
     }
