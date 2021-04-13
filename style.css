@@ -192,14 +192,18 @@ h3 {
 
 
 @media only screen and (min-width: 320px) {
-    /*your CSS Rules*/     
+    .photo-sprinkle2{
+        display: none;
+    }
 }
 @media only screen and (min-width: 480px) {
-    /*your CSS Rules*/     
+    .photo-sprinkle2{
+        display: none;
+    }
 }
 @media only screen and (min-width: 640px) {
     .photo-sprinkle2{
-        display: none;
+        display: block;
     }
     .photo-sprinkle3{
         height: 110%;
@@ -234,7 +238,7 @@ h3 {
 
 @media only screen and (min-width: 768px) {   
     .photo-sprinkle2{
-        display: none;
+        display: block;
     }
     .photo-sprinkle3{
         height: 110%;
@@ -312,11 +316,9 @@ h3 {
 }
 
 @media only screen and (min-width: 1540px) {
-    /*your CSS Rules*/ 
     body {
         font-size: 130%;
-    }
-    .photo-sprinkle2{
+    }.photo-sprinkle2{
         display: block;
     }
     .photo-sprinkle3{
