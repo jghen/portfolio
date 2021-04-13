@@ -156,13 +156,13 @@ h1 {
 }
 .project-info em {
     font-weight: 100;
-    background-color: rgb(206, 211, 166);
-    color: rgb(11, 72, 87);
-    padding: .2rem;
-    border-radius: 50% 0;
+    background-color: rgb(11, 72, 87);
+    color: #f9fffe;
+    padding:.1rem .4rem .2rem .4rem;
+    border-radius: 25px;
     margin: .1rem;
-
 }
+
 /*remove bullet points*/
 .project-info > ul {
     list-style-type: none;
@@ -230,6 +230,7 @@ h3 {
         width: 75vw;
         margin: auto 7vw auto 27vw;
     }
+    
     .box img {
         width: 15%;
         margin-left: 5vw;
@@ -265,6 +266,9 @@ h3 {
 }
 
 @media only screen and (min-width: 1376px) {
+    body {
+        font-size: 110%;
+    }
     .photo-sprinkle2{
         display: block;
     }
@@ -312,6 +316,9 @@ h3 {
         margin: auto auto auto 10.5vw;
         display: block;
         font-size: 80%;
+    }
+    .project-info p {
+        line-height: 1.2rem;
     }
 }
 
@@ -364,6 +371,9 @@ h3 {
     }
 }
 @media only screen and (min-width: 1920px) {
+    body {
+        font-size: 150%;
+    }
     .photo-sprinkle2{
         display: block;
     }
@@ -402,6 +412,9 @@ h3 {
         height: 90%;
         margin: 5% auto auto 14vw;
         display: block;
+    }
+    .project-info p {
+        line-height: 1.2rem;
     }
     
 }
