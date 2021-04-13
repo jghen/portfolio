@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 
 /*use this to remove scrolling in browser and use 100% */
 body{
@@ -117,7 +120,6 @@ h1 {
 .box {
     width: 90vw;
     height: 20vh;
-    cursor:pointer;
     transition: all 0.3s linear;
     border-radius:2px;
     display: flex;
