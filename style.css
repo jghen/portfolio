@@ -77,7 +77,7 @@ body{
 
 }
 .cover-text {
-    width: 60vw;
+    width: 800px;
 }
 h1 {
     text-align: center;
@@ -207,7 +207,7 @@ h3 {
         margin-left: 10vw;
     }
     .cover-text {
-        width: 50%;
+        width: 800px;
         margin-left: 7vw;
     }
     h1 {
