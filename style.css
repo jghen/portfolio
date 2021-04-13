@@ -316,6 +316,12 @@ h3 {
     body {
         font-size: 130%;
     }
+    .photo-sprinkle2{
+        display: block;
+    }
+    .photo-sprinkle3{
+        height: 100%;
+    }
     .cover-photo {
         width: 12%;
         margin: auto 0 auto 12vw;
@@ -355,7 +361,12 @@ h3 {
     }
 }
 @media only screen and (min-width: 1920px) {
-    
+    .photo-sprinkle2{
+        display: block;
+    }
+    .photo-sprinkle3{
+        height: 100%;
+    }
     .cover-text {
         width: 40%;
         margin-left: 2.8vw;
