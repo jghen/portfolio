@@ -92,6 +92,7 @@ h1 {
     border-radius: 100%;
     transform: rotate(26deg);
     z-index:0;
+    display: none;
     
 }
 .photo-sprinkle3 {
