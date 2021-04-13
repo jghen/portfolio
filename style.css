@@ -198,6 +198,12 @@ h3 {
     /*your CSS Rules*/     
 }
 @media only screen and (min-width: 640px) {
+    .photo-sprinkle2{
+        opacity: 0;
+    }
+    .photo-sprinkle3{
+        height: 110%;
+    }
     .container {
         flex-direction: row;
         justify-content: flex-start;
@@ -226,8 +232,13 @@ h3 {
     }
 }
 
-@media only screen and (min-width: 768px) {
-    /*your CSS Rules*/     
+@media only screen and (min-width: 768px) {   
+    .photo-sprinkle2{
+        opacity: 0;
+    }
+    .photo-sprinkle3{
+        height: 110%;
+    }
     .container {
         flex-direction: row;
         justify-content: flex-start;
