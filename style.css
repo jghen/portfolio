@@ -62,17 +62,17 @@ body{
 
 /* section cover */
 .container {
-    margin-top: 10vh;
     height: 90vh;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     overflow: hidden;
     position: relative;
     z-index: -2;
 }
 .cover-photo {
+    margin: 15vh auto 2vh;
     width: 30vw;
     border-radius: 100%;
     position: relative;
@@ -100,8 +100,8 @@ h1 {
 .photo-sprinkle3 {
     position: absolute;
     background: rgba(205, 197, 90, .3);
-    margin: 0 -30vw;
-    height: 75vh;
+    margin: 5vh -30vw;
+    height: 80vh;
     width: 150vw;
     border-radius: 100%;
     transform: rotate(-15deg);
@@ -198,68 +198,41 @@ h3 {
         display: none;
     }
 }
+/*surface duo*/
 @media only screen and (min-width: 480px) {
     .photo-sprinkle2{
         display: none;
     }
 }
+/*pads*/
 @media only screen and (min-width: 640px) {
-    .photo-sprinkle2{
-        display: block;
-    }
-    .photo-sprinkle3{
-        height: 110%;
-    }
-    .container {
-        flex-direction: row;
-        justify-content: flex-start;
-    }
+   
     .cover-photo {
-        width: 15%;
-        margin-left: 10vw;
+        width: 20%;
     }
     .cover-text {
-        width: 50%;
-        margin-left: 7vw;
-    }
-    h1 {
-        text-align: left;
-    }
-    .cover-text > p {
-        margin-right: 5vw;
-    }   
+        width: 75%;
+    } 
     .project-info {
         width: 75vw;
         margin: auto 7vw auto 27vw;
     }
-    
     .box img {
         width: 15%;
         margin-left: 5vw;
     }
 }
-
+/*ipad*/
 @media only screen and (min-width: 768px) {   
     body {
         font-size: 115%;
     }
-    .photo-sprinkle2{
-        display: block;
-    }
-    .photo-sprinkle3{
-        height: 110%;
-    }
-    .container {
-        flex-direction: row;
-        justify-content: flex-start;
-    }
     .cover-photo {
         width: 20%;
-        margin-left: 10vw;
+        margin-bottom: 4vh;
     }
     .cover-text {
-        width: 50%;
-        margin-left: 7vw;
+        width: 60%;
     }
     .box img {
         margin-left: 7vw;
@@ -269,7 +242,26 @@ h3 {
         height: 66.8vh;
     }
 }
-
+/*ipad pro*/
+@media only screen and (min-width: 1024px) {   
+    body {
+        font-size: 125%;
+    }
+    .cover-photo {
+        width: 20%;
+    }
+    .cover-text {
+        width: 50%;
+    }
+    .box img {
+        margin-left: 5vw;
+        width: 15%;
+    }
+    .box iframe {
+        height: 66.8vh;
+    }
+}
+/*old pc*/
 @media only screen and (min-width: 1376px) {
     body {
         font-size: 140%;
@@ -279,19 +271,23 @@ h3 {
     }
     .photo-sprinkle3{
         height: 100%;
+
     }
     .container {
+        flex-direction: row;
         justify-content: flex-start;
+        align-items: center;
     }
     .cover-photo {
         width: 15%;
-        margin-left: 18vw;
+        margin: auto 0 auto 12vw;
     }
     .cover-text {
-        margin-left: 4vw;
         width: 50%;
-        font-size: 80%;
+        margin-left: 7vw;
     }
+    h1 {text-align: left;}
+    
     .grid-wrapper {
         width: 95%;
         margin: 0 auto;
@@ -301,15 +297,15 @@ h3 {
     }
     .box {
         height: 35vh;
-        width: 25vw;
+        width: 35vw;
         margin: 2%;
         flex-wrap: nowrap;
     }
     .box > iframe {
         height: 335%;
-        width: 120%;
+        width: 125%;
         transform: scale(.3);
-        margin: auto -10.7vw;
+        margin: auto -15.3vw;
     }
     .box img {
         margin-left: 1vw;
@@ -318,7 +314,7 @@ h3 {
     .project-info {
         width: 47%;
         height: 80%;
-        margin: auto auto auto 10.5vw;
+        margin: auto auto auto 15vw;
         display: block;
         font-size: 80%;
     }
@@ -326,10 +322,10 @@ h3 {
         line-height: 1.2rem;
     }
 }
-
+/*newer pads*/
 @media only screen and (min-width: 1540px) {
     body {
-        font-size: 150%;
+        font-size: 130%;
     }
     .photo-sprinkle2 {
         display: block;
@@ -376,9 +372,10 @@ h3 {
         line-height: 3vh;
     }
 }
+/* pc */
 @media only screen and (min-width: 1920px) {
     body {
-        font-size: 200%;
+        font-size: 150%;
     }
     .photo-sprinkle2{
         display: block;
@@ -388,7 +385,7 @@ h3 {
     }
     .cover-text {
         width: 768px;
-        margin-left: 2.8vw;
+        margin-left: 3vw;
     }
     .cover-photo {
         width: 10%;
