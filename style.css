@@ -151,10 +151,9 @@ h1 {
 }
 /*info about projects*/
 .project-info {
-    width: 75vw;
+    width: 64vw;
     margin: auto auto auto 26vw;
     display: block;
-    
 }
 .project-info em {
     font-weight: 100;
@@ -176,7 +175,7 @@ h3 {
     margin: 0;
 }
 .project-info p {
-    line-height: 2vh;
+    line-height: 2.5vh;
 }
 .project-info a {
     font-weight: 600;
