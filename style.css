@@ -110,7 +110,6 @@ h1 {
 }
 /*section projects*/
 .grid-wrapper {
-    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
