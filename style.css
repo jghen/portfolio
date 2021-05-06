@@ -31,8 +31,8 @@ body{
     height: 10vh;
     color:#FFF;
 }
-.sticky {
-    position: fixed;
+.static {
+    position: static;
     top: 0;
     width: 100%;
     z-index: 2;
@@ -64,7 +64,6 @@ body{
 /* section cover */
 .container {
     height: 90vh;
-    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,6 +108,15 @@ h1 {
     z-index: -1;
 }
 /*section projects*/
+
+#projects {
+    height: 2vh;
+}
+
+h2{
+    text-align: center;
+}
+
 .grid-wrapper {
     display: flex;
     flex-direction: column;
@@ -120,6 +128,7 @@ h1 {
 .box {
     width: 90vw;
     height: 20vh;
+    margin: 2%;
     transition: all 0.3s linear;
     border-radius:2px;
     display: flex;
