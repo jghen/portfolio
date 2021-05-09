@@ -10,7 +10,7 @@ body{
     height: 100%;
     width: 100%;
     font-family: ubuntu, 'sans-serif';
-    font-size: 2vh;
+    font-size: 2rem;
     font-weight: 500;
     color:rgb(11, 72, 87);
 }
@@ -130,11 +130,10 @@ h2{
     height: 20vh;
     margin: 2%;
     transition: all 0.3s linear;
-    border-radius:2px;
+    border-radius:1%;
     display: flex;
     align-items: center;
     position: relative;
-    border-radius: 2%;
 }
 .box:hover {
     transform: scale(1.01);
@@ -148,7 +147,7 @@ h2{
     transform: scale(.3,.3);
     height: 66.66vh;
     width: 80vw;
-    border-radius: 2% 0 0 2%;
+    border-radius: 1% 0 0 1%;
 }
 .project3 {
     scroll-behavior: smooth;   
@@ -160,7 +159,7 @@ h2{
 }
 /*info about projects*/
 .project-info {
-    width: 64vw;
+    width: 54vw;
     margin: auto auto auto 26vw;
     display: block;
 }
@@ -202,19 +201,27 @@ h3 {
 
 
 @media only screen and (min-width: 320px) {
+    body {
+        font-size: 80%;
+    }
     .photo-sprinkle2{
         display: none;
     }
 }
 /*surface duo*/
 @media only screen and (min-width: 480px) {
+    body {
+        font-size: 80%;
+    }
     .photo-sprinkle2{
         display: none;
     }
 }
 /*pads*/
 @media only screen and (min-width: 640px) {
-   
+    body {
+        font-size: 90%;
+    }
     .cover-photo {
         width: 20%;
     }
@@ -233,7 +240,7 @@ h3 {
 /*ipad*/
 @media only screen and (min-width: 768px) {   
     body {
-        font-size: 115%;
+        font-size: 90%;
     }
     .cover-photo {
         width: 20%;
@@ -255,25 +262,67 @@ h3 {
     body {
         font-size: 120%;
     }
+    .photo-sprinkle2{
+        display: block;
+    }
+    .photo-sprinkle3{
+        height: 100%;
+
+    }
+    .container {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
     .cover-photo {
         width: 18%;
-        margin-top: 10vh;
+        margin: auto 0 auto 10vw;
     }
     .cover-text {
         width: 50%;
+        margin-left: 5vw;
+    }
+    h1 {
+        text-align: left;
+    }
+    .grid-wrapper {
+        width: 98%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .box {
+        height: 35vh;
+        width: 44vw;
+        margin: 2%;
+        flex-wrap: nowrap;
+    }
+    .box > iframe {
+        height: 335%;
+        width: 140%;
+        transform: scale(.3);
+        margin: auto -22.3vw;
     }
     .box img {
-        margin-left: 5vw;
-        width: 15%;
+        margin-left: 1vw;
+        width: 30%;
     }
-    .box iframe {
-        height: 66.8vh;
+    .project-info {
+        width: 47%;
+        height: 80%;
+        margin: auto auto auto 19vw;
+        display: block;
+        font-size: 95%;
+    }
+    .project-info p {
+        line-height: 1.6rem;
     }
 }
 /*old pc*/
 @media only screen and (min-width: 1376px) {
     body {
-        font-size: 120%;
+        font-size: 130%;
     }
     .photo-sprinkle2{
         display: block;
@@ -325,10 +374,10 @@ h3 {
         height: 80%;
         margin: auto auto auto 15vw;
         display: block;
-        font-size: 80%;
+        font-size: 90%;
     }
     .project-info p {
-        line-height: 1.2rem;
+        line-height: 1.5rem;
     }
 }
 /*newer pads -some pcs*/
@@ -378,7 +427,7 @@ h3 {
         display: block;
     }
     .project-info p{
-        line-height: 3.2vh;
+        line-height: 1.5rem;
     }
 }
 /* pc */
@@ -401,19 +450,19 @@ h3 {
         margin-left: 17.3vw;
     }
     .grid-wrapper {
-        width: 80%;
+        width: 98%;
     }
     .box {
-        height: 35vh;
-        width: 30vw;
+        height: 40vh;
+        width: 44vw;
         margin: 2%;
         flex-wrap: nowrap;
     }
     .box > iframe {
         height: 167.5%;
-        width: 70%;
+        width: 72%;
         transform: scale(.6);
-        margin: auto -4.3vw;
+        margin: auto -6.3vw;
     }
     .box img {
         margin-left: 1.5vw;
@@ -422,11 +471,11 @@ h3 {
     .project-info {
         width: 50%;
         height: 90%;
-        margin: 5% auto auto 14vw;
+        margin: 5% auto auto 21vw;
         display: block;
     }
     .project-info p {
-        line-height: 1.3rem;
+        line-height: 1.7rem;
     }
     
 }
