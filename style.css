@@ -119,9 +119,9 @@ h2{
 
 .grid-wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     position: relative;
     background: none;
 }
@@ -160,6 +160,7 @@ h2{
 /*info about projects*/
 .project-info {
     width: 54vw;
+    height: 80%;
     margin: auto auto auto 26vw;
     display: block;
 }
@@ -202,35 +203,90 @@ h3 {
 
 @media only screen and (min-width: 320px) {
     body {
-        font-size: 80%;
+        font-size: 100%;
     }
     .photo-sprinkle2{
         display: none;
+    }
+    .project-info p {
+        font-size: 85%;
+    }
+    .box {
+        height: 40vh;
+    }
+    .box iframe {
+        height: 334%;
+        width: 160%;
+        transform: scale(.3);
+        margin: auto auto auto -50.4vw;
+    }
+    .box:first-of-type iframe, .box:nth-of-type(2) iframe {
+        transform: scale(0.4);
+        height: 250%;
+        width: 120%;
+        margin-left: -32.4vw;
+    }
+
+    .project-info {
+        margin-left: 46vw;
     }
 }
 /*surface duo*/
 @media only screen and (min-width: 480px) {
     body {
-        font-size: 80%;
+        font-size: 100%;
     }
     .photo-sprinkle2{
         display: none;
+    }
+    .project-info p {
+        font-size: 90%;
+    }
+    .box {
+        height: 40vh;
+    }
+    .box iframe {
+        height: 334%;
+        width: 160%;
+        transform: scale(.3);
+        margin: auto auto auto -50.4vw;
+    }
+    .project-info {
+        margin-left: 46vw;
+    }
+    .project-info p {
+        width: 27ch;
     }
 }
 /*pads*/
 @media only screen and (min-width: 640px) {
     body {
-        font-size: 90%;
+        font-size: 100%;
+    }
+    .photo-sprinkle2{
+        display: none;
     }
     .cover-photo {
         width: 20%;
     }
     .cover-text {
-        width: 75%;
-    } 
+        width: 45ch;
+    }
+    .project-info p {
+        font-size: 90%;
+        width: 30ch;
+    }
+    .box {
+        height: 40vh;
+    }
+    .box iframe {
+        height: 334%;
+        width: 160%;
+        transform: scale(.3);
+        margin: auto auto auto -50.4vw;
+    }
     .project-info {
-        width: 75vw;
-        margin: auto 7vw auto 27vw;
+        margin-left: 46vw;
     }
     .box img {
         width: 15%;
@@ -240,27 +296,31 @@ h3 {
 /*ipad*/
 @media only screen and (min-width: 768px) {   
     body {
-        font-size: 90%;
+        font-size: 110%;
     }
     .cover-photo {
-        width: 20%;
-        margin-bottom: 4vh;
+        width: 15%;
+        margin-bottom: 3vh;
     }
     .cover-text {
-        width: 60%;
+        width: 40ch;
     }
+    
     .box img {
-        margin-left: 7vw;
-        width: 10%;
+        margin-left: 10vw;
+        width: 25%;
     }
-    .box iframe {
-        height: 66.8vh;
+    
+    .project-info p {
+        width: 33ch;
+        font-size: 100%;
+        line-height: 1.4rem;
     }
 }
 /*ipad pro*/
 @media only screen and (min-width: 1024px) {   
     body {
-        font-size: 120%;
+        font-size: 100%;
     }
     .photo-sprinkle2{
         display: block;
@@ -279,7 +339,7 @@ h3 {
         margin: auto 0 auto 10vw;
     }
     .cover-text {
-        width: 50%;
+        width: 45ch;
         margin-left: 5vw;
     }
     h1 {
@@ -288,17 +348,19 @@ h3 {
     .grid-wrapper {
         width: 98%;
         margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
     }
     .box {
         height: 35vh;
         width: 44vw;
         margin: 2%;
-        flex-wrap: nowrap;
     }
-    .box > iframe {
+    .box iframe {
+        height: 335%;
+        width: 140%;
+        transform: scale(.3);
+        margin: auto -22.3vw;
+    }
+    .box:first-of-type iframe, .box:nth-of-type(2) iframe {
         height: 335%;
         width: 140%;
         transform: scale(.3);
@@ -309,7 +371,7 @@ h3 {
         width: 30%;
     }
     .project-info {
-        width: 47%;
+        width: 30%;
         height: 80%;
         margin: auto auto auto 19vw;
         display: block;
@@ -317,6 +379,7 @@ h3 {
     }
     .project-info p {
         line-height: 1.6rem;
+        width: 25ch;
     }
 }
 /*old pc*/
@@ -341,7 +404,7 @@ h3 {
         margin: auto 0 auto 12vw;
     }
     .cover-text {
-        width: 50%;
+        width: 50ch;
         margin-left: 7vw;
     }
     h1 {text-align: left;}
@@ -349,9 +412,6 @@ h3 {
     .grid-wrapper {
         width: 95%;
         margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
     }
     .box {
         height: 35vh;
@@ -359,7 +419,9 @@ h3 {
         margin: 2%;
         flex-wrap: nowrap;
     }
-    .box > iframe {
+    .box iframe, 
+    .box:first-of-type iframe, 
+    .box:nth-of-type(2) iframe {
         height: 335%;
         width: 125%;
         transform: scale(.3);
@@ -378,6 +440,7 @@ h3 {
     }
     .project-info p {
         line-height: 1.5rem;
+        width: 25ch;
     }
 }
 /*newer pads -some pcs*/
@@ -402,15 +465,14 @@ h3 {
     .grid-wrapper {
         width: 95%;
         margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
     }
     .box {
         height: 30vh;
         width: 40%;
     }
-    .box > iframe {
+    .box iframe, 
+    .box:first-of-type iframe, 
+    .box:nth-of-type(2) iframe {
         height: 200%;
         width: 95%;
         transform: scale(.5);
@@ -428,6 +490,7 @@ h3 {
     }
     .project-info p{
         line-height: 1.5rem;
+        width: 30ch;
     }
 }
 /* pc */
@@ -458,7 +521,9 @@ h3 {
         margin: 2%;
         flex-wrap: nowrap;
     }
-    .box > iframe {
+    .box iframe, 
+    .box:first-of-type iframe, 
+    .box:nth-of-type(2) iframe {
         height: 167.5%;
         width: 72%;
         transform: scale(.6);
