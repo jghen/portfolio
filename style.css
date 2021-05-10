@@ -320,7 +320,7 @@ h3 {
 /*ipad pro*/
 @media only screen and (min-width: 1024px) {   
     body {
-        font-size: 100%;
+        font-size: 130%;
     }
     .photo-sprinkle2{
         display: block;
@@ -371,15 +371,16 @@ h3 {
         width: 30%;
     }
     .project-info {
-        width: 30%;
+        width: 45%;
         height: 80%;
         margin: auto auto auto 19vw;
         display: block;
         font-size: 95%;
     }
     .project-info p {
+        font-size: 95%;
         line-height: 1.6rem;
-        width: 25ch;
+        width: 28ch;
     }
 }
 /*old pc*/
@@ -415,7 +416,7 @@ h3 {
     }
     .box {
         height: 35vh;
-        width: 35vw;
+        width: 40vw;
         margin: 2%;
         flex-wrap: nowrap;
     }
@@ -425,22 +426,22 @@ h3 {
         height: 335%;
         width: 125%;
         transform: scale(.3);
-        margin: auto -15.3vw;
+        margin: auto -17.4vw;
     }
     .box img {
         margin-left: 1vw;
         width: 30%;
     }
     .project-info {
-        width: 47%;
+        width: 50%;
         height: 80%;
-        margin: auto auto auto 15vw;
+        margin: auto auto auto 17vw;
         display: block;
-        font-size: 90%;
+        font-size: 95%;
     }
     .project-info p {
         line-height: 1.5rem;
-        width: 25ch;
+        width: 23ch;
     }
 }
 /*newer pads -some pcs*/
@@ -490,7 +491,7 @@ h3 {
     }
     .project-info p{
         line-height: 1.5rem;
-        width: 30ch;
+        width: 25ch;
     }
 }
 /* pc */
@@ -517,7 +518,7 @@ h3 {
     }
     .box {
         height: 40vh;
-        width: 44vw;
+        width: 32vw;
         margin: 2%;
         flex-wrap: nowrap;
     }
@@ -536,8 +537,9 @@ h3 {
     .project-info {
         width: 50%;
         height: 90%;
-        margin: 5% auto auto 21vw;
+        margin: 5% auto auto 15vw;
         display: block;
+        font-size: 95%;
     }
     .project-info p {
         line-height: 1.7rem;
