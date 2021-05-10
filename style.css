@@ -208,9 +208,6 @@ h3 {
     .photo-sprinkle2{
         display: none;
     }
-    .project-info p {
-        font-size: 85%;
-    }
     .box {
         height: 40vh;
     }
@@ -218,17 +215,25 @@ h3 {
         height: 334%;
         width: 160%;
         transform: scale(.3);
-        margin: auto auto auto -50.4vw;
+        margin: auto auto auto -50.5vw;
     }
     .box:first-of-type iframe, .box:nth-of-type(2) iframe {
         transform: scale(0.4);
         height: 250%;
         width: 120%;
-        margin-left: -32.4vw;
+        margin-left: -32.5vw;
     }
-
+    .box img {
+        width: 35%;
+        margin-left: 7vw;
+    }
     .project-info {
         margin-left: 46vw;
+        height: 90%;
+    }
+    .project-info p {
+        font-size: 85%;
+        width: 20ch;
     }
 }
 /*surface duo*/
@@ -358,7 +363,7 @@ h3 {
         height: 335%;
         width: 140%;
         transform: scale(.3);
-        margin: auto -22.3vw;
+        margin: auto -21.6vw;
     }
     .box:first-of-type iframe, .box:nth-of-type(2) iframe {
         height: 335%;
@@ -367,20 +372,20 @@ h3 {
         margin: auto -22.3vw;
     }
     .box img {
-        margin-left: 1vw;
+        margin-left: 3vw;
         width: 30%;
     }
     .project-info {
-        width: 45%;
+        width: 40%;
         height: 80%;
-        margin: auto auto auto 19vw;
+        margin: auto auto auto 20vw;
         display: block;
         font-size: 95%;
     }
     .project-info p {
         font-size: 95%;
         line-height: 1.6rem;
-        width: 28ch;
+        width: 22ch;
     }
 }
 /*old pc*/
@@ -418,7 +423,6 @@ h3 {
         height: 35vh;
         width: 40vw;
         margin: 2%;
-        flex-wrap: nowrap;
     }
     .box iframe, 
     .box:first-of-type iframe, 
@@ -426,7 +430,7 @@ h3 {
         height: 335%;
         width: 125%;
         transform: scale(.3);
-        margin: auto -17.4vw;
+        margin: auto -17.5vw;
     }
     .box img {
         margin-left: 1vw;
@@ -456,12 +460,12 @@ h3 {
         height: 100%;
     }
     .cover-photo {
-        width: 15%;
-        margin: auto 0 auto 12vw;
+        width: 14%;
+        margin: auto 0 auto 15vw;
     }
     .cover-text {
         margin-left: 4vw;
-        width: 700px;
+        width: 55ch;
     }
     .grid-wrapper {
         width: 95%;
@@ -474,19 +478,19 @@ h3 {
     .box iframe, 
     .box:first-of-type iframe, 
     .box:nth-of-type(2) iframe {
-        height: 200%;
+        height: 201%;
         width: 95%;
         transform: scale(.5);
         margin: auto -9vw;
     }
     .box img {
-        width: 25%;
-        margin-left: 3.5vw;
+        width: 28%;
+        margin-left: 4vw;
     }
     .project-info {
         width: 45%;
-        height: 90%;
-        margin: auto auto auto 19.5vw;
+        height: 85%;
+        margin: auto auto auto 19vw;
         display: block;
     }
     .project-info p{
@@ -497,7 +501,7 @@ h3 {
 /* pc */
 @media only screen and (min-width: 1920px) {
     body {
-        font-size: 140%;
+        font-size: 145%;
     }
     .photo-sprinkle2{
         display: block;
@@ -506,12 +510,12 @@ h3 {
         height: 100%;
     }
     .cover-text {
-        width: 768px;
+        width: 55ch;
         margin-left: 3vw;
     }
     .cover-photo {
-        width: 10%;
-        margin-left: 17.3vw;
+        width: 13%;
+        margin-left: 18vw;
     }
     .grid-wrapper {
         width: 98%;
@@ -520,7 +524,6 @@ h3 {
         height: 40vh;
         width: 32vw;
         margin: 2%;
-        flex-wrap: nowrap;
     }
     .box iframe, 
     .box:first-of-type iframe, 
@@ -528,7 +531,7 @@ h3 {
         height: 167.5%;
         width: 72%;
         transform: scale(.6);
-        margin: auto -6.3vw;
+        margin: auto -4.6vw;
     }
     .box img {
         margin-left: 1.5vw;
