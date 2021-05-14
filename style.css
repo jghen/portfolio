@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 html {
+    display: block;
     scroll-behavior: smooth;
 }
 
-/*use this to remove scrolling in browser and use 100% */
 body{
     margin: 0;
     height: 100%;
