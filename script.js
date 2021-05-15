@@ -1,3 +1,8 @@
+/* 
+window.onload = () => {
+    this.scroll(0,0);
+}; */
+
 
 //method - get an elements top position
 const getElementTopPosition = (element) => {

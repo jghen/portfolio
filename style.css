@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-/* html {
-    scroll-behavior: smooth;
-} */
-/* this does not work. Scrolls autmatically to page bottom on onload, must use js */
 
 body{
     margin: 0;
@@ -149,9 +145,7 @@ h2{
     width: 80vw;
     border-radius: 1% 0 0 1%;
 }
-.project3 {
-    scroll-behavior: smooth;   
-}
+
 .box img {
     position: absolute;
     width: 25%;
