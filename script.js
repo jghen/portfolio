@@ -1,10 +1,10 @@
 
-//getr element top position
+//method - get an elements top position
 const getElementTopPosition = (element) => {
     return element.getBoundingClientRect().top;
 }
 
-//scroll to the top of a section
+//method - scroll to the top of any section
 const scrollToSection = (section) => {
     const sectionTop = getElementTopPosition(section); //get projects-element offset from viewport top, botom, left, right
     window.scrollTo({
@@ -14,9 +14,13 @@ const scrollToSection = (section) => {
     });
 };
 
+//___________function for scrolling to a specific section___________
+
+
 const scrollToProjects = () => {
     const projects = document.querySelector('#projects');
     scrollToSection(projects);
 };
 
+//event listener for scrolling to a section
 document.querySelector('.project-link').addEventListener('click', scrollToProjects);
