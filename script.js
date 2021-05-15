@@ -1,12 +1,15 @@
 
-
+alert('nå starter scriptet');
 //Prevent automatic page location restoration
 if (history.scrollRestoration) {
-  history.scrollRestoration = 'manual';
+    alert('history restoration');
+    history.scrollRestoration = 'manual';
+
 }
 
 //scroll to 0,0 when loaded
 window.onload = () => {
+    alert('window is loaded');
     this.scroll(0,0);
 };
 
