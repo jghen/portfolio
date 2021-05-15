@@ -1,17 +1,13 @@
-
-alert('nå starter scriptet');
+/* 
 //Prevent automatic page location restoration
 if (history.scrollRestoration) {
-    alert('history restoration');
     history.scrollRestoration = 'manual';
-
 }
 
 //scroll to 0,0 when loaded
 window.onload = () => {
-    alert('window is loaded');
     this.scroll(0,0);
-};
+}; */
 
 
 //method - get an elements top position

@@ -19,7 +19,7 @@ body{
    background: linear-gradient(to bottom, rgb(37, 44, 54), rgb(55, 64, 77) ) ;
 
 }
-.yellow {
+.grey {
     background: linear-gradient(to bottom, rgb(238, 243, 250), rgb(204, 219, 238)) ;
 }
 /*nav*/
@@ -63,7 +63,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
     z-index: -2;
 }
