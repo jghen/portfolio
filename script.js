@@ -1,3 +1,10 @@
+
+
+//Prevent automatic page location restoration
+if (history.scrollRestoration) {
+  history.scrollRestoration = 'manual';
+}
+
 //scroll to 0,0 when loaded
 window.onload = () => {
     this.scroll(0,0);
