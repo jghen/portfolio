@@ -1,14 +1,3 @@
-/* 
-//Prevent automatic page location restoration
-if (history.scrollRestoration) {
-    history.scrollRestoration = 'manual';
-}
-
-//scroll to 0,0 when loaded
-window.onload = () => {
-    this.scroll(0,0);
-}; */
-
 
 //method - get an elements top position
 const getElementTopPosition = (element) => {
@@ -25,9 +14,7 @@ const scrollToSection = (section) => {
     });
 };
 
-//___________function for scrolling to a specific section___________
-
-
+//___________function for scrolling to a specific section, i.e. CV, projects etc.___________
 const scrollToProjects = () => {
     const projects = document.querySelector('#projects');
     scrollToSection(projects);
