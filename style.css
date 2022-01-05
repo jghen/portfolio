@@ -123,7 +123,7 @@ h2{
 }
 .box {
     width: 90vw;
-    height: 20vh;
+    height: 12em;
     margin: 2%;
     transition: all 0.3s linear;
     border-radius:1%;
@@ -202,9 +202,6 @@ h3 {
     .photo-sprinkle2{
         display: none;
     }
-    .box {
-        height: 40vh;
-    }
     .box iframe {
         height: 334%;
         width: 160%;
@@ -241,9 +238,7 @@ h3 {
     .project-info p {
         font-size: 90%;
     }
-    .box {
-        height: 40vh;
-    }
+    
     .box iframe {
         height: 334%;
         width: 160%;
@@ -274,9 +269,6 @@ h3 {
     .project-info p {
         font-size: 90%;
         width: 30ch;
-    }
-    .box {
-        height: 40vh;
     }
     .box iframe {
         height: 334%;
