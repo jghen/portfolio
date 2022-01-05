@@ -349,7 +349,7 @@ h3 {
         margin: 0 auto;
     }
     .box {
-        height: 35vh;
+        height: 14em;
         width: 44vw;
         margin: 2%;
     }
@@ -414,7 +414,6 @@ h3 {
         margin: 0 auto;
     }
     .box {
-        height: 35vh;
         width: 40vw;
         margin: 2%;
     }
@@ -466,7 +465,6 @@ h3 {
         margin: 0 auto;
     }
     .box {
-        height: 30vh;
         width: 40%;
     }
     .box iframe, 
@@ -515,7 +513,6 @@ h3 {
         width: 98%;
     }
     .box {
-        height: 40vh;
         width: 32vw;
         margin: 2%;
     }
