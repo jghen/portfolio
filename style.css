@@ -123,7 +123,7 @@ h2{
 }
 .box {
     width: 90vw;
-    height: 14em;
+    height: 16em;
     margin: 2%;
     transition: all 0.3s linear;
     border-radius:1%;
