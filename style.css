@@ -69,13 +69,13 @@ body{
 }
 .cover-photo {
     margin: 15vh auto 2vh;
-    width: 30vw;
+    width: 20vw;
     border-radius: 100%;
     position: relative;
     z-index: 0;
 }
 .cover-text {
-    width: 80vw;
+    width: 85vw;
 }
 h1 {
     text-align: center;
