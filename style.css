@@ -336,7 +336,7 @@ h3 {
 /*ipad pro*/
 @media only screen and (min-width: 1024px) {
   body {
-    font-size: 130%;
+    font-size: 110%;
   }
   .photo-sprinkle2 {
     display: block;
@@ -402,7 +402,7 @@ h3 {
 /*old pc*/
 @media only screen and (min-width: 1376px) {
   body {
-    font-size: 130%;
+    font-size: 110%;
   }
   .photo-sprinkle2 {
     display: block;
