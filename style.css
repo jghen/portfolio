@@ -135,7 +135,7 @@ h2 {
 }
 .box {
   width: 90vw;
-  height: 16em;
+  min-height: 16em;
   margin: 2%;
   transition: all 0.2s ease-in;
   border-radius: 1%;
@@ -168,8 +168,8 @@ h2 {
 /*info about projects*/
 .project-info {
   width: 54vw;
-  height: 80%;
-  margin: auto auto auto 26vw;
+  min-height: 80%;
+  margin: 1em auto 1em 26vw;
   display: block;
 }
 .project-info em {
@@ -191,9 +191,7 @@ h3 {
   text-transform: capitalize;
   margin: 0;
 }
-.project-info p {
-  line-height: 2.5vh;
-}
+
 .project-info a {
   font-weight: 600;
   width: fit-content;
@@ -330,7 +328,6 @@ h3 {
   .project-info p {
     width: 33ch;
     font-size: 100%;
-    line-height: 1.4rem;
   }
 }
 /*ipad pro*/
@@ -395,7 +392,6 @@ h3 {
   }
   .project-info p {
     font-size: 95%;
-    line-height: 1.6rem;
     width: 22ch;
   }
 }
@@ -455,7 +451,6 @@ h3 {
     font-size: 95%;
   }
   .project-info p {
-    line-height: 1.5rem;
     width: 23ch;
   }
 }
@@ -504,7 +499,6 @@ h3 {
     display: block;
   }
   .project-info p {
-    line-height: 1.5rem;
     width: 25ch;
   }
 }
@@ -552,8 +546,5 @@ h3 {
     margin: 5% auto auto 15vw;
     display: block;
     font-size: 95%;
-  }
-  .project-info p {
-    line-height: 1.7rem;
   }
 }
