@@ -142,7 +142,7 @@ h2 {
   display: flex;
   align-items: center;
   position: relative;
-  background-color: red;
+  /* background-color: red; */
   overflow: hidden;
 }
 .box:hover {
@@ -170,7 +170,7 @@ h2 {
   min-height: 80%;
   margin: 0.5em auto 0.5em -30vw;
   display: block;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 .box img {
   position: relative;
@@ -180,13 +180,12 @@ h2 {
 
 .last-box > .project-info {
   position: inherit;
-  background-color: blue;
+  /* background-color: blue; */
   margin: auto 0;
 }
 
 p:has(em) {
   width: 100%;
-  background-color: white;
   display: flex;
   flex-wrap: wrap;
 }
@@ -244,11 +243,11 @@ h3 {
   }
 
   .box img {
-    width: 35%;
-    margin-left: 8.4vw;
+    width: 40%;
+    margin-left: 3vw;
   }
   .project-info {
-    margin-left: -52vw;
+    margin-left: -50vw;
     height: 90%;
   }
 }
@@ -476,15 +475,9 @@ h3 {
   }
 }
 /*newer pads -some pcs*/
-/* @media only screen and (min-width: 1540px) {
+@media only screen and (min-width: 1540px) {
   body {
     font-size: 120%;
-  }
-  .photo-sprinkle2 {
-    display: block;
-  }
-  .photo-sprinkle3 {
-    height: 100%;
   }
   .cover-photo {
     width: 14%;
@@ -494,35 +487,10 @@ h3 {
     margin-left: 4vw;
     width: 55ch;
   }
-  .grid-wrapper {
-    width: 95%;
-    margin: 0 auto;
-  }
-  .box {
-    width: 40%;
-  }
-  .box iframe {
-    height: 200%;
-    width: 95%;
-    transform: scale(0.5);
-    margin-left: -9.1vw;
-  }
-  .box img {
-    width: 28%;
-    margin-left: 4vw;
-  }
-  .project-info {
-    width: 45%;
-    height: 85%;
-    margin: auto auto auto 19vw;
-    display: block;
-  }
-  .project-info p {
-    width: 25ch;
-  }
-} */
+  
+} 
 /* pc */
-/* @media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1920px) {
   body {
     font-size: 125%;
   }
@@ -543,25 +511,5 @@ h3 {
   .grid-wrapper {
     width: 98%;
   }
-  .box {
-    width: 32vw;
-    margin: 2%;
-  }
-  .box iframe {
-    height: 167%;
-    width: 72%;
-    transform: scale(0.6);
-    margin-left: -4.7vw;
-  }
-  .box img {
-    margin-left: 1.5vw;
-    width: 30%;
-  }
-  .project-info {
-    width: 50%;
-    height: 90%;
-    margin: 5% auto auto 15vw;
-    display: block;
-    font-size: 95%;
-  }
-} */
+  
+} 
