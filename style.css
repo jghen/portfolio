@@ -27,7 +27,8 @@ html {
   background: #f9fffe;
 }
 .blue {
-  background: linear-gradient(to bottom, rgb(37, 44, 54), rgb(55, 64, 77));
+  /* background: linear-gradient(to bottom, rgb(37, 44, 54), rgb(55, 64, 77)); */
+  background-color: rgb(48, 58, 70);
 }
 .grey {
   background: linear-gradient(
@@ -43,6 +44,11 @@ html {
 }
 .static {
   position: static;
+}
+.sticky {
+  position: sticky;
+}
+.static, .sticky {
   top: 0;
   width: 100%;
   z-index: 2;
@@ -78,7 +84,7 @@ html {
   align-items: center;
   overflow: hidden;
   position: relative;
-  z-index: -2;
+  z-index: 0;
 }
 .cover-photo {
   margin: 15vh auto 2vh;
@@ -93,6 +99,34 @@ html {
 h1 {
   text-align: center;
 }
+.cta-btn {
+  position: inherit;
+  z-index: 5;
+  font-weight: 600;
+  width: fit-content;
+  margin: 3em auto;
+  padding: 0.2em 0.4em 0.2em 0.6em;
+  background-color: rgb(48, 58, 70);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #f5f5f6;
+  text-decoration: none;
+  transition: ease-in 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  vertical-align: center;
+
+}
+.cta-btn:hover {
+  cursor: pointer;
+  background: none;
+  background-color: #f5f5f6;
+  color: rgb(37, 44, 54);
+  border: 2px solid rgb(37, 44, 54);
+  border-radius: 5px;
+}
+
 
 .photo-sprinkle2 {
   position: absolute;
@@ -164,8 +198,8 @@ h2 {
 }
 /*info about projects*/
 .project-info {
-  position: static;
-  z-index: 2;
+  /* position: static;
+  z-index: 2; */
   width: 46vw;
   min-height: 80%;
   margin: 0.5em auto 0.5em -30vw;
@@ -315,7 +349,6 @@ h3 {
     height: 100%;
   }
   .container {
-    
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -331,6 +364,9 @@ h3 {
   }
   h1 {
     text-align: left;
+  }
+  .cta-btn {
+    margin: 1.5em 0;
   }
   .grid-wrapper {
     width: 98%;

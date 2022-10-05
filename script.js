@@ -15,10 +15,13 @@ const scrollToSection = (section) => {
 };
 
 //___________function for scrolling to a specific section, i.e. CV, projects etc.___________
-const scrollToProjects = () => {
+const scrollToProjects = (e) => {
+    console.log(e.target);
     const projects = document.querySelector('#projects');
     scrollToSection(projects);
 };
 
+
 //event listener for scrolling to a section
 document.querySelector('.project-link').addEventListener('click', scrollToProjects);
+document.querySelector('.cta-btn').addEventListener('click', scrollToProjects);
