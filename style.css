@@ -193,6 +193,7 @@ h2 {
   flex-wrap: wrap;
   position: relative;
   background: none;
+  margin: 0 auto 2em;
 }
 .box {
   width: 98vw;
@@ -508,7 +509,6 @@ h3 {
   }
   .grid-wrapper {
     width: 98%;
-    margin: 0 auto;
   }
   .box {
     width: 44vw;
@@ -622,8 +622,7 @@ h3 {
   }
 
   .grid-wrapper {
-    width: 95%;
-    margin: 0 auto;
+    width: 90%;
   }
   .box {
     width: 32vw;
@@ -661,6 +660,9 @@ h3 {
     margin-left: 4vw;
     width: 55ch;
   }
+  .grid-wrapper {
+    width: 80%;
+  }
   
 } 
 /* pc */
@@ -683,7 +685,6 @@ h3 {
     margin-left: 18vw;
   }
   .grid-wrapper {
-    width: 98%;
+    width: 70%;
   }
-  
 } 
