@@ -9,19 +9,19 @@
 </head>
 <!-- 
 to do:
-sticky nav?
-footer med link til linkedin og github, samt mailadresse (kopier option?)
 kutt tekst. enklere og kortere. 
 Skal det være egen om meg side?
-Legg til CV side og link. Eller bare lengre ned på samme siden. 
+Eller kanskje om meg knappen gjør at mer tekst kommer til syne? animert inn?
+but ut github med cv i nav.
+Legg til CV-seksjon istedet for github og link.
 -->
 <body class="grey">
   <nav class=" blue sticky">
     <ul class="main-nav">
       <li><a href="#"">om meg</a></li>
-      <li><a class="project-link" href="#">prosjekter</a></li>
+      <li><a class="project-link" href="#projects">prosjekter</a></li>
       <li><a target="_blank" href="https://github.com/jghen">github</a></li>
-      <li class="push"><a target="_blank" href="mailto:jangeorg85@gmail.com">kontakt</a></li>
+      <li class="push"><a class="contact-link" href="#contact">kontakt</a></li>
     </ul>
   </nav>
   <section class="container white">
@@ -171,6 +171,46 @@ Legg til CV side og link. Eller bare lengre ned på samme siden.
       </div>
     </div>
   </section>
+  <section id="cv">
+  </section>
+  <section class="container white">
+    <br>
+    <br>
+    <h2>CV:</h2>
+    <p>her er cv</p>
+    <ul>
+      <li>ting jeg kan</li>
+      <li>andre ting</li>
+      <li>og dette</li>
+    </ul>
+  </section>
+  <footer class="page page5 footer blue" id="contact">
+    <header class="header-page5">
+      <h1 class="h1-big2 h1-big5">
+        <span class="con">kon</span>
+        <span class="tact">ta t</span>
+        <!-- <span class="me">me</span> -->
+      </h1>
+      <adress class="adress">
+        <p>Jan Georg Henriksen</p>
+        <p>Trondheim</p>
+        <a class="email" href="mailto:jangeorg85@gmail.com" >
+          <p>jangeorg85@gmail.com</p>
+        </a>
+      </adress>
+    </header>
+    <section class="SoMe-icon-wrapper">
+      <a class="linkedin" href="https://www.linkedin.com/in/jghen" target="_blank">
+        <button class="icon linkedin-icon">in</button>
+      </a>
+      <a class="facebook" href="https://www.facebook.com/jan.g.henriksen.1/" target="_blank">
+        <button class="icon facebook-icon">f</button>
+      </a>
+      <a class="github"  href="https://github.com/jghen/portfolio2" target="_blank">
+        <img class="icon github-icon" src="./img/GitHub-Mark-Light-64px.png" alt="Github">
+      </a>
+    </section>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
