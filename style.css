@@ -179,7 +179,7 @@ h1 {
 /*section projects*/
 
 #projects {
-  height: 2vh;
+  height: 8vh;
 }
 
 h2 {
@@ -362,7 +362,7 @@ h3 {
 }
 
 .SoMe-icon-wrapper {
-  width: var(--content-width);
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
