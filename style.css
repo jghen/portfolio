@@ -123,6 +123,7 @@ a:hover {
 }
 .cover-text {
   width: 85vw;
+  font-weight: 600;
 }
 h1 {
   text-align: center;
@@ -133,7 +134,7 @@ h1 {
   font-weight: 600;
   width: fit-content;
   margin: 3em auto;
-  padding: 0.2em 0.4em 0.2em 0.6em;
+  padding: 0.4em 0.8em 0.4em 1.2em;
   background-color: rgb(48, 58, 70);
   border: 2px solid transparent;
   border-radius: 5px;
