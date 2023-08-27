@@ -4,7 +4,7 @@
 * {box-sizing: border-box;}
 
 :root {
-  --bg-primary-color: rgb(150, 140, 140);
+  --bg-primary-color: rgb(11, 72, 87);
   --bg-secondary-color: #f5f5f6;
   --text-color-dark: rgb(11, 72, 87);
 }
@@ -130,7 +130,7 @@ h1 {
 .cta-btn {
   position: inherit;
   z-index: 5;
-  font-weight: 600;
+  /* font-weight: 600; */
   width: fit-content;
   margin: 3em auto;
   padding: 0.4em 0.8em 0.4em 1.2em;
